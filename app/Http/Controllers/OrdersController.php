@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Carbon\Carbon;
 use App\Models\Order;
+use App\Jobs\CloseOrder;
 use App\Models\ProductSku;
 use App\Models\UserAddress;
 use Illuminate\Http\Request;
@@ -69,6 +70,7 @@ class OrdersController extends Controller
 
             return $order;
         });
+        $this->dispatch(new CloseOrder($order, config('app.order_ttl')));
 
         return $order;
     }
