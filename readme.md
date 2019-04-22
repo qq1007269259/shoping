@@ -16,7 +16,7 @@
 - laravel中[数据库迁移-php artisan migrate](https://laravelacademy.org/post/9580.html).
 - laravel商城中的前端[Laravel Mix问题](https://www.jianshu.com/p/f51a74f8d27f).
 - laravel中图片显示的问题-建立软连接=代码={PHP artisan storage:link}--最好在管理员模式下.
-- [Homestead.yaml](https://www.jianshu.com/p/78c13154a292)的内容.
+- [Homestead.yaml](https://www.jianshu.com/p/78c13154a292)的内容. 
 - 一下待续.....
 
 
