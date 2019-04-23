@@ -33,6 +33,7 @@ Route::group(['middleware' => ['auth', 'verified']], function() {
     Route::get('cart', 'CartController@index')->name('cart.index');
     Route::delete('cart/{sku}', 'CartController@remove')->name('cart.remove');
     Route::post('orders', 'OrdersController@store')->name('orders.store');
+    Route::get('orders', 'OrdersController@index')->name('orders.index');
 });
 
 // 在之前的路由后面配上中间件
