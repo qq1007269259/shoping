@@ -37,6 +37,7 @@ Route::group(['middleware' => ['auth', 'verified']], function() {
     Route::get('orders/{order}', 'OrdersController@show')->name('orders.show');
 });
 
+
 // 在之前的路由后面配上中间件
 // Route::get('/', 'PagesController@root')->name('root')->middleware('verified');
 
