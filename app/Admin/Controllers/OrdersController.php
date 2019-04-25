@@ -174,7 +174,7 @@ class OrdersController extends Controller
     }
 
     /**
-     * 订单发货
+     * 订单发
      * @param  Order   $order   [description]
      * @param  Request $request [description]
      * @return [type]           [description]
