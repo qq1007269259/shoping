@@ -24,4 +24,6 @@ Route::group([
 
     $router->get('products/{id}', 'ProductsController@show');
 
+    $router->get('orders', 'OrdersController@index')->name('admin.orders.index');
+
 });
