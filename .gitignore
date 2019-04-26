@@ -5,7 +5,6 @@
 /public/css
 /public/mix-manifest.json
 /storage/*.key
-/storage
 /vendor
 .env
 .phpunit.result.cache
